@@ -22,7 +22,47 @@
       <h1 class="visually-hidden">Об отелях</h1>
       <section class="filters">
         <h2 class="visually-hidden">Фильтр отелей</h2>
-        <!--здесь будут формы-->
+        <form class="filter" method="get" action="https://htmlacademy.ru/intensive/htmlcss">
+          <fieldset>
+            <legend>Инфраструктура:</legend>
+            <ul>
+              <li class="filter-option">
+                <input type="checkbox" name="pool" id="pool">
+                <label for="pool">Бассейн</label>
+              </li>
+              <li class="filter-option">
+                <input type="checkbox" name="parking" id="parking">
+                <label for="parking">Парковка</label>
+              </li>
+              <li class="filter-option">
+                <input type="checkbox" name="wi-fi" id="wi-fi">
+                <label for="wi-fi">Wi-Fi</label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset>
+            <legend>Тип жилья</legend>
+            <ul>
+              <li class="filter-option">
+                <input type="checkbox" name="hotel" id="hotel">
+                <label for="hotel">Гостиница</label>
+              </li>
+              <li class="filter-option">
+                <input type="checkbox" name="motel" id="motel">
+                <label for="motel">Мотель</label>
+               </li> 
+              <li class="filter-option">
+                <input type="checkbox" name="suite" id="suite">
+                <label for="suite">Апартаменты</label>
+               </li> 
+            </ul>
+          </fieldset>
+          <fieldset>
+            <legend>Стоимость в сутки (р):</legend>
+            от 0 <input type="range" min="0" max="3000"> до 3000
+          </fieldset>
+          <button type="submit">Показать</button>          
+        </form>
       </section>
       <section class="sorting">
         <h2 class="visually-hidden">Сортировка</h2>

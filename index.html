@@ -81,7 +81,30 @@
         <div class="map">
           <img src="img/map.png" width="1718" height="748" alt="Карта штата">
         </div> 
-        <!-- Здесь будет форма -->
+        <section class="modal">
+          <h3 class="visually-hidden">Поиск гостиницы</h3>	
+          <form class="modal-search-form" action="https://htmlacademy.ru/intensive/htmlcss" method="post">
+        	<button class="search-button" type="button">Поиск гостиницы в Седоне</button>
+        	<p class="search-item search-item-arrival">
+        	  <label for="arrival-date">Дата заезда</label>
+        	  <input type="text" name="arrival-date" id="arrival-date" placeholder="24 апреля 2017">
+            </p>
+            <p class="search-item search-item-departure">
+        	  <label for="departure-date">Дата выезда</label>
+        	  <input type="text" name="departure-date" id="departure-date" placeholder="4 июля 2017">
+        	</p>
+        	<p class="search-item search-item-adults">
+        	  <label for="adults">Взрослые</label>
+        	  <input type="number" name="adults" id="adults" min="1" placeholder="2">
+        	</p>
+        	<p class="search-item search-item-kids">
+        	  <label for="kids">Дети</label>
+        	  <input type="number" name="kids" id="kids" min="1" placeholder="0">
+        	</p>
+        	<button class="button" type="submit">Найти</button>  
+          </form>
+          <button class="modal-close" type="button">Закрыть</button>
+        </section>
       </section>
     </main>
     <footer class="main-footer">
