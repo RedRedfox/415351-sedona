@@ -1,0 +1,338 @@
+body {
+	margin: 0;
+	padding: 0;
+
+	font-family: "PT Sans", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #000000;
+    text-transform: uppercase;
+
+    background-color: #f2f2f2;
+}
+
+a {
+	text-decoration: none;
+}
+
+.button {
+  font: inherit;
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+  border: none;
+}
+
+.container {
+	background-color: #ffffff;
+}
+
+.intro {
+	position: relative;
+	height: 508px;
+	width: 1200px;
+	background-color: #dff0f8;
+    background-image: url("../img/intro-logo.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 21%;
+}
+
+.main-navigation {
+	background-color: #ffffff;
+}
+
+.site-navigation {
+	list-style: none;
+}
+
+.site-navigation a {
+	color: #000000;
+	font-weight: 700;
+}
+
+.site-navigation a:hover {
+	color: #81b3d2;
+}
+
+.site-navigation a:active {
+	color: #bdbbbc;
+}
+
+.site-navigation-current {
+	color: #766357;
+	font-weight: 700;
+}
+
+.promo b {
+	font-size: 21px;
+	font-weight: 700;
+}
+
+.promo {
+	text-align: center;
+}
+
+.features h3 {
+	font-size: 21px;
+	font-weight: 700;
+}
+
+.feature1-description,
+.feature2-description {
+	text-align: center;
+	background-color: #81b3d2;
+	color: #ffffff;
+}
+
+.recommendations-list {
+	text-align: center;
+	list-style: none;
+}
+
+.other-features-list {
+	text-align: center;
+	list-style: none;
+	background-color: #eeeeee;
+}
+
+.search h2 {
+	text-align: center;
+	font-size: 30px;
+	font-weight: 700;
+    line-height: 36px;
+}
+
+.search-info {
+	text-align: center;
+}
+
+.search-button {
+	font-size: 21px;
+	font-weight: 700;
+    background-color: #766357;    
+}
+
+.search-button:hover {
+	background-color: #604e43;
+}
+
+.search-button:active {
+	background-color: #503e33;
+	color: rgba(255,255,255,0.3);
+}
+
+.search-form {
+	font-size: 14px;
+	font-weight: 700;
+    line-height: 26px;
+}
+
+.form-button {
+	font-size: 21px;
+	font-weight: 700;   
+    background-color: #81b3d2;
+}
+
+.form-button:hover {
+	background-color: #669ec0;
+}
+
+.form-button:active {
+	background-color: #5496bd;
+	color: rgba(255,255,255,0.3);
+}
+
+.search-item input {
+	font: inherit;
+	background-color: #f2f2f2;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.search-item input:hover {
+	background-color: #ebebeb;
+}
+
+.search-item input:active {
+	background-color: #ffffff;
+	border: 2px solid #e5e5e5;
+}
+
+.filters {
+	position: relative;
+	min-height: 217px;
+	width: 1200px;
+	background-color: #dff0f8;
+    background-image: url("../img/filter-background.jpg");
+    background-repeat: no-repeat;    
+}
+
+.filter-option {
+	list-style: none;
+}
+
+.filter fieldset {
+	border: none;
+}
+
+.filter legend {
+	font-size: 16px;
+	line-height: 21px;
+	font-weight: 700;
+}
+
+.filter ul {
+	line-height: 21px;
+}
+
+.filter input {
+	background-color: transparent;
+}
+
+
+.filter input:disabled + label {
+	color: #6a6a6a;
+}
+
+.filter .button {
+	background-color: transparent;
+	border: 2px solid #ffffff;
+}
+
+.filter .button:hover {
+	background-color: #ffffff;
+	color: #000000;
+}
+
+.sorting span {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+.sorting ul,
+.catalog ul {
+	list-style: none;
+}
+
+.options-list a {
+	font-size: 12px;
+	line-height: 18px;
+	color: #bdbbbc;
+	border-bottom: 1px dashed #81b3d2; 
+}
+
+.options-list a:hover {
+	color: #81b3d2;
+}
+
+.options-list a:active {
+	color: #000000;
+	border-bottom: none;
+}
+
+.options-list-current {
+	font-size: 12px;
+	line-height: 18px;
+	color: #81b3d2;
+}
+
+.catalog-item {
+	background-color: #fefefe;
+}
+
+.price h3 {
+	font-size: 21px;
+	font-weight: 700px;
+}
+
+.price h3:hover {
+	color: #81b3d2;
+}
+
+.price h3:active {
+	color: #bdbbbc;
+}
+
+.details {
+	line-height: 21px;
+}
+
+.info a {
+	background-color: #81b3d2;
+	font-weight: 700;
+	color: #ffffff;
+}
+
+.info a:hover {
+	background-color: #669ec0;
+}
+
+.info a:active {
+	background-color: #5496bd;
+	color: rgba(255,255,255,0.3);
+}
+
+.booking a {
+	background-color: #766357; 
+	font-weight: 700;   
+}
+
+.booking a:hover {
+	background-color: #604e43;
+}
+
+.booking a:active {
+	background-color: #503e33;
+	color: rgba(255,255,255,0.3);
+}
+
+.rating-item {
+	background-color: #f2f2f2;
+}
+
+.main-footer {
+	background-color: rgba(255,255,255,0.9);
+}
+
+.main-footer a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.footer-social {
+	text-align: center;
+}
+
+.social-list {
+	list-style: none;
+}
+
+.link b {
+	font-size: 21px;
+	font-weight: 700;
+}
+
+.social-button:hover {
+	background-color: #669ec0;
+}
+
+.social-button:active {
+	background-color: #5496bd;
+	color: rgba(255,255,255,0.3);
+}
+
+.footer-copyright {
+	text-align: center;
+}
+
+.footer-copyright .button:hover {
+	color: rgb(129,179,210);
+}
+
+.footer-copyright .button:active {
+	color: rgb(189,187,188);
+}
+
+
