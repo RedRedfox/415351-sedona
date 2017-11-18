@@ -16,6 +16,17 @@ a {
 	text-decoration: none;
 }
 
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
 .button {
   font: inherit;
   text-align: center;
@@ -83,18 +94,21 @@ a {
 .feature2-description {
 	text-align: center;
 	background-color: #81b3d2;
+	line-height: 21px;
 	color: #ffffff;
 }
 
 .recommendations-list {
 	text-align: center;
 	list-style: none;
+	line-height: 21px;
 }
 
 .other-features-list {
 	text-align: center;
 	list-style: none;
 	background-color: #eeeeee;
+	line-height: 21px;
 }
 
 .search h2 {
@@ -106,6 +120,7 @@ a {
 
 .search-info {
 	text-align: center;
+	line-height: 24px;
 }
 
 .search-button {
@@ -169,6 +184,10 @@ a {
     background-repeat: no-repeat;    
 }
 
+.filter {
+	color: #ffffff;
+}
+
 .filter-option {
 	list-style: none;
 }
@@ -214,6 +233,11 @@ a {
 .sorting ul,
 .catalog ul {
 	list-style: none;
+}
+
+.options-number {
+	font-size: 21px;
+	font-weight: 700;
 }
 
 .options-list a {
