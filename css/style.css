@@ -10,6 +10,7 @@ body {
     text-transform: uppercase;
 
     background-color: #f2f2f2;
+    background-position: center;
 }
 
 a {
@@ -18,11 +19,14 @@ a {
 
 .visually-hidden {
 	position: absolute;
+
 	width: 1px;
 	height: 1px;
 	margin: -1px;
-	border: 0;
 	padding: 0;
+
+	border: 0;
+	
 	clip: rect(0 0 0 0);
 	overflow: hidden;
 }
@@ -30,9 +34,10 @@ a {
 .button {
   font: inherit;
   text-align: center;
-  color: #ffffff;
   vertical-align: middle;
   text-transform: uppercase;
+  color: #ffffff;
+  
   border: none;
 }
 
@@ -59,8 +64,8 @@ a {
 }
 
 .site-navigation a {
-	color: #000000;
 	font-weight: 700;
+	color: #000000;	
 }
 
 .site-navigation a:hover {
@@ -72,8 +77,8 @@ a {
 }
 
 .site-navigation-current {
-	color: #766357;
 	font-weight: 700;
+	color: #766357;	
 }
 
 .promo b {
@@ -92,40 +97,44 @@ a {
 
 .feature1-description,
 .feature2-description {
-	text-align: center;
-	background-color: #81b3d2;
 	line-height: 21px;
+	text-align: center;
 	color: #ffffff;
+
+	background-color: #81b3d2;	
 }
 
 .recommendations-list {
-	text-align: center;
-	list-style: none;
 	line-height: 21px;
+	text-align: center;
+
+	list-style: none;	
 }
 
 .other-features-list {
-	text-align: center;
-	list-style: none;
-	background-color: #eeeeee;
 	line-height: 21px;
+	text-align: center;
+	
+	background-color: #eeeeee;
+	list-style: none;	
 }
 
 .search h2 {
-	text-align: center;
 	font-size: 30px;
 	font-weight: 700;
     line-height: 36px;
+	text-align: center;	
 }
 
 .search-info {
-	text-align: center;
 	line-height: 24px;
+	text-align: center;	
 }
 
 .search-button {
 	font-size: 21px;
 	font-weight: 700;
+
     background-color: #766357;    
 }
 
@@ -134,8 +143,9 @@ a {
 }
 
 .search-button:active {
-	background-color: #503e33;
 	color: rgba(255,255,255,0.3);
+
+	background-color: #503e33;	
 }
 
 .search-form {
@@ -146,7 +156,8 @@ a {
 
 .form-button {
 	font-size: 21px;
-	font-weight: 700;   
+	font-weight: 700;
+
     background-color: #81b3d2;
 }
 
@@ -155,15 +166,17 @@ a {
 }
 
 .form-button:active {
-	background-color: #5496bd;
 	color: rgba(255,255,255,0.3);
+
+	background-color: #5496bd;	
 }
 
 .search-item input {
 	font: inherit;
-	background-color: #f2f2f2;
 	font-weight: 700;
 	text-transform: uppercase;
+
+	background-color: #f2f2f2;	
 }
 
 .search-item input:hover {
@@ -177,9 +190,10 @@ a {
 
 .filters {
 	position: relative;
-	min-height: 217px;
 	width: 1200px;
-	background-color: #dff0f8;
+	min-height: 217px;
+	
+	background-color: #4c789b;
     background-image: url("../img/filter-background.jpg");
     background-repeat: no-repeat;    
 }
@@ -198,8 +212,8 @@ a {
 
 .filter legend {
 	font-size: 16px;
-	line-height: 21px;
 	font-weight: 700;
+	line-height: 21px;	
 }
 
 .filter ul {
@@ -221,8 +235,9 @@ a {
 }
 
 .filter .button:hover {
-	background-color: #ffffff;
 	color: #000000;
+
+	background-color: #ffffff;	
 }
 
 .sorting span {
@@ -244,6 +259,7 @@ a {
 	font-size: 12px;
 	line-height: 18px;
 	color: #bdbbbc;
+
 	border-bottom: 1px dashed #81b3d2; 
 }
 
@@ -253,6 +269,7 @@ a {
 
 .options-list a:active {
 	color: #000000;
+
 	border-bottom: none;
 }
 
@@ -284,9 +301,10 @@ a {
 }
 
 .info a {
-	background-color: #81b3d2;
 	font-weight: 700;
 	color: #ffffff;
+
+	background-color: #81b3d2;
 }
 
 .info a:hover {
@@ -294,13 +312,16 @@ a {
 }
 
 .info a:active {
-	background-color: #5496bd;
 	color: rgba(255,255,255,0.3);
+
+	background-color: #5496bd;	
 }
 
 .booking a {
+	font-weight: 700;
+
 	background-color: #766357; 
-	font-weight: 700;   
+	   
 }
 
 .booking a:hover {
@@ -308,8 +329,9 @@ a {
 }
 
 .booking a:active {
-	background-color: #503e33;
 	color: rgba(255,255,255,0.3);
+
+	background-color: #503e33;	
 }
 
 .rating-item {
@@ -321,8 +343,8 @@ a {
 }
 
 .main-footer a {
-	text-decoration: none;
 	color: #000000;
+	text-decoration: none;
 }
 
 .footer-social {
@@ -336,15 +358,19 @@ a {
 .link b {
 	font-size: 21px;
 	font-weight: 700;
+
+	margin: 0 132px;
 }
+
 
 .social-button:hover {
 	background-color: #669ec0;
 }
 
 .social-button:active {
-	background-color: #5496bd;
 	color: rgba(255,255,255,0.3);
+
+	background-color: #5496bd;	
 }
 
 .footer-copyright {
@@ -358,5 +384,193 @@ a {
 .footer-copyright .button:active {
 	color: rgb(189,187,188);
 }
+
+/*----сеточные стили----
+
+*, *::before, *::after {
+	outline: 1px dashed green;
+}
+
+--*, *::before, *::after {
+	outline: none;--*/
+
+
+html,
+body {
+	min-width: 1200;
+	min-height: 2762;
+}
+
+
+.main-header {
+	width: 1200px;
+	min-height: 55px;
+	margin: 0 auto;
+}
+
+.main-navigation {
+	display: flex;
+	justify-content: center;
+
+	min-height: 55px;
+}
+
+.main-navigation-logo {
+	position: absolute;
+	min-width: 138px;
+	min-height: 71px;
+}
+
+.site-navigation {
+	display: flex;
+	width: 100%;
+	margin: 0;
+	padding: 0 73px;
+
+	list-style: none;
+
+	min-height: 55px;
+}
+
+.site-navigation li:first-child {
+	margin-right: 146px;
+}
+
+.site-navigation li:nth-child(2) {
+	margin-right: 388px;
+}
+
+.site-navigation li:last-child {
+	margin-left: auto;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 10;
+}
+
+.intro {
+	margin-bottom: 61px;
+	padding: 0;
+}
+
+.promo b {
+	display: flex;
+	width: 440px;
+	margin: 0 auto;
+	margin-bottom: 36px;
+}
+
+.promo p {
+	margin-bottom: 56px;
+}
+
+.feature1 {
+	display: flex;	
+	margin: 0;
+	margin-bottom: 61px;
+	padding: 0;
+	
+}
+
+.feature1-description {
+	width: auto;
+	padding: 46px 60px 63px;
+}
+
+.recommendations-list {
+	display: flex;
+	margin: 0;
+	margin-bottom: 86px;
+	padding: 0;
+}
+
+.recommendations-item {
+	width: 400px;
+}
+
+.lodging {
+	width: 253px;
+	margin: 0 auto;
+}
+
+.food {
+	width: 290px;
+	margin: 0 auto;
+}
+
+.souvenirs {
+	width: 271px;
+	margin: 0 auto;
+}
+
+.feature2 {
+	display: flex;
+	margin: 0;
+	padding: 0;	
+}
+
+.feature2-description {
+	width: auto;
+	padding: 46px 49px 63px;
+}
+
+.other-features-list {
+	display: flex;
+	margin: 0;
+	margin-bottom: 54px;
+	padding: 0;
+	padding-top: 47px;
+	padding-bottom: 63px;
+}
+
+.other-features-list li {
+	width: 400px;
+}
+
+.feature3 {
+	width: 208px;
+	margin: 0 auto;
+}
+
+.feature4 {
+	width: 262px;
+	margin: 0 auto;
+}
+
+.feature5 {
+	width: 259px;
+	margin: 0 auto;
+}
+
+.search h2 {
+	margin-bottom: 32px;
+}
+
+
+.main-footer {
+	display: flex;
+	width: 1200px;
+	min-height: 120px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.link,
+.footer-social,
+.footer-copyright {
+	width: 400px;
+	margin: auto;
+}
+
+
+
+
+
+	
+
+
+
 
 
