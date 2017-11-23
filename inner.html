@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link href="css/style.css" rel="stylesheet">
   </head>
-  <body>
+  <body class="inner-page">
     <header class="main-header">
       <nav class="main-navigation">
         <a class="main-navigation-logo" href="index.html">
@@ -26,9 +26,9 @@
       <section class="filters">
         <h2 class="visually-hidden">Фильтр отелей</h2>
         <form class="filter" method="get" action="https://htmlacademy.ru/intensive/htmlcss">
-          <fieldset>
+          <fieldset class="filter-type">
             <legend>Инфраструктура:</legend>
-            <ul>
+            <ul class="filter-list">
               <li class="filter-option">
                 <input type="checkbox" name="pool" id="pool" checked>
                 <label for="pool">Бассейн</label>
@@ -43,9 +43,9 @@
               </li>
             </ul>
           </fieldset>
-          <fieldset>
+          <fieldset class="filter-type">
             <legend>Тип жилья</legend>
-            <ul>
+            <ul class="filter-list">
               <li class="filter-option">
                 <input type="checkbox" name="hotel" id="hotel" checked>
                 <label for="hotel">Гостиница</label>
@@ -60,16 +60,18 @@
                </li> 
             </ul>
           </fieldset>
-          <fieldset class="range">
-            <legend>Стоимость в сутки (р):</legend>
-            <label for="cost-from">от
-              <input type="text" name="cost-from" id="cost-from">
-            </label>
-            <label for="cost-up-to">до
-              <input type="text" name="cost-up-to" id="cost-up-to">
-            </label>
-          </fieldset>
-          <button class="button" type="submit">Показать</button>          
+          <div class="wrapper-direction">
+            <fieldset class="range">
+              <legend>Стоимость в сутки (р):</legend>
+              <label for="cost-from">от
+                <input type="text" name="cost-from" id="cost-from">
+              </label>
+              <label for="cost-up-to">до
+                <input type="text" name="cost-up-to" id="cost-up-to">
+              </label>
+            </fieldset>
+            <button class="button" type="submit">Показать</button>   
+          </div>      
         </form>
       </section>
       <section class="sorting">
