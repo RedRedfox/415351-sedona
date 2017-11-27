@@ -46,12 +46,11 @@ a {
 }
 
 .intro {
-	height: 508px;
+	height: 564px;
 	width: 1200px;
 	background-color: #dff0f8;
     background-image: url("../img/intro-logo.jpg");
     background-repeat: no-repeat;
-    background-position: 50% 21%;
 }
 
 .main-navigation {
@@ -126,9 +125,18 @@ a {
 }
 
 .map {
-	width: 1200px;
+	position: relative;
 	height: 592px;
 	overflow: hidden;
+}
+
+.map img {
+	position: absolute;
+	top: 50%;
+
+	max-width: 100%;
+	height: auto;
+	transform: translateY(-59%);
 }
 
 .search-info {
@@ -442,8 +450,9 @@ body {
 }
 
 .wrapper {
-  width: 1200px;
-  margin: 0 auto;
+	position: relative;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .intro {
@@ -465,18 +474,35 @@ body {
 
 .feature1 {
 	display: flex;
-
+	position: relative;
+    
 	height: 256px;
 	margin: 0;
 	padding: 0;
 
 	overflow: hidden;
-	
 }
 
 .feature1-description {
-	width: auto;
-	padding: 46px 60px 63px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	width: 400px;	
+}
+
+.feature1-description p {
+	width: 282px;
+}
+
+.sedona-picture img {
+	position: absolute;
+	top: 50%;
+
+	max-width: 100%;
+	height: auto;
+	transform: translateY(-50%);
 }
 
 .recommendations {
@@ -513,6 +539,7 @@ body {
 
 .feature2 {
 	display: flex;
+	position: relative;
 
     height: 256px;
 	margin: 0;
@@ -521,9 +548,26 @@ body {
 	overflow: hidden;
 }
 
+.bridge-picture img {
+	position: absolute;
+	max-width: 100%;
+	top: 50%;
+	height: auto;
+	transform: translateY(-50%);
+}
+
 .feature2-description {
-	width: auto;
-	padding: 46px 49px 63px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	width: 400px;
+	margin-left: auto;	
+}
+
+.feature2-description p {
+	width: 302px;
 }
 
 .other-features-list {
@@ -889,6 +933,13 @@ body {
 	min-height: 120px;
 	margin: 0;
 	padding: 0;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+
+	background-color: rgba(255, 255, 255, 0.9);
 }
 
 .link,
