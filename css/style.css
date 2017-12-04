@@ -50,6 +50,8 @@ a {
 	position: relative;
     width: 1200px;
     margin: 0 auto;
+
+    box-shadow: 0 0 40px 2px #dbdbdb;
 }
 
 .container {
@@ -164,8 +166,8 @@ a {
 .feature-description {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
+	padding-top: 27px;
 
 	width: 400px;
 	line-height: 21px;
@@ -173,6 +175,11 @@ a {
 	color: #ffffff;
 
 	background-color: #81b3d2;
+}
+
+.feature-description span {
+	margin-top: 3px;
+	margin-bottom: 6px;
 }
 
 .feature-description:first-child h3 {
@@ -190,7 +197,7 @@ a {
 	height: 256px;
 } 
 
-.sedona-picture img { 
+.feature-picture img { 
 	position: absolute; 
 	top: 54%; 
 
@@ -272,14 +279,6 @@ a {
 	height: 75px;
 	background-image: url("../img/souvenir-icon.svg");
 	background-repeat: no-repeat;
-}
-
-.bridge-picture img {
-	position: absolute;
-	max-width: 100%;
-	top: 50%;
-	height: auto;
-	transform: translateY(-50%);
 }
 
 .feature-description:nth-child(2) p {
@@ -420,7 +419,7 @@ a {
 	box-sizing: border-box;
 	width: 345px;
 	margin-right: auto;
-	padding: 6px 11px;
+	padding: 6px 13px;
 	font: inherit;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -442,7 +441,7 @@ a {
 }
 
 .search-item-kids label {
-	margin-right: 25px;
+	margin-right: 24px;
 }
 
 .search-item .button {
@@ -511,7 +510,7 @@ a {
 }
 
 .search-item .button-minus {
-	transform: translate(-72px, -5px);
+	transform: translate(-71px, -5px);
 }
 
 .search-item .button-plus {
@@ -1030,7 +1029,7 @@ a {
 	align-items: center;
 
 	width: 1200px;
-	min-height: 112px;
+	min-height: 120px;
 	margin: 0;
 	padding: 0;
 
@@ -1121,7 +1120,7 @@ a {
 .footer-copyright svg {
 	width: 114px;
 	height: 42px;
-	margin-left: 6px;
+	margin-left: 9px;
 }
 
 .footer-copyright svg:hover path {
