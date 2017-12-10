@@ -223,7 +223,7 @@ a {
     position: relative; 
     
     width: 800px;
-    height: 256px;
+    min-height: 256px;
     overflow: hidden;
 } 
 
@@ -273,7 +273,7 @@ a {
     content: "";
     position: absolute;
     top: -81px;
-    left: 105px;
+    left: 108px;
 
     width: 75px;
     height: 75px;
@@ -282,7 +282,7 @@ a {
 }
 
 .lodging {
-    width: 253px;
+    width: 260px;
     margin: 0 auto;
     padding: 0 12px;
 }
@@ -301,7 +301,7 @@ a {
 }
 
 .souvenirs {
-    width: 271px;
+    width: 280px;
     margin: 0 auto;
     padding: 0 4px;
 }
@@ -396,6 +396,21 @@ a {
     background-color: #503e33;  
 }
 
+.js-form-show {
+    display: block;
+
+    animation-name: bounce;
+    animation-duration: 0.6s;
+}
+
+.js-form-close {
+    display: none;
+}
+
+.form-error {
+    animation: shake 0.6s;
+}
+
 .search-form {
     position: absolute;
     z-index: 1;
@@ -457,7 +472,7 @@ a {
 }
 
 .search-item input:hover {
-   background-color: #ebebeb;
+    background-color: #ebebeb;
 }
 
 .search-item input:focus {
@@ -725,8 +740,9 @@ a {
     background: #ffffff;    
 }
 
-.range label {  
+.range label {
     display: inline-block;
+    vertical-align: middle;
     font-size: 14px;
     line-height: 21px;
 
@@ -807,7 +823,7 @@ a {
     padding: 5px 35px;
 
     line-height: 21px;
-   
+
     background-color: transparent;
     border: 2px solid #ffffff;
     border-radius: 2px;
@@ -1047,7 +1063,7 @@ a {
     padding: 0;
 
     font-size: 21px;
-    font-weight: 700px;
+    font-weight: 700;
 }
 
 .price h3:hover {
@@ -1224,3 +1240,42 @@ a {
 .footer-copyright svg:active path {
     fill: #bdbbbc;
 }
+
+@keyframes bounce {
+    70% {
+        transform: translateY(30px);
+    }
+
+    90% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes shake {
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        transform: translateX(-10px);
+    }
+
+    20%,
+    40%,
+    60%,
+    80% {
+        transform: translateX(10px);
+    }
+}
+
+
+
